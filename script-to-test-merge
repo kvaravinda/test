@@ -1,0 +1,7 @@
+#!/bin/bash
+
+git clone https://github.com/kvaravinda/test.git
+
+git checkout prod
+git merge --ff $1
+git push origin prod
